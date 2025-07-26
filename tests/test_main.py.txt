@@ -1,0 +1,6 @@
+from src.main import read_data, average_age
+
+def test_average_age():
+    df = read_data("data/dataset.csv")
+    avg = average_age(df)
+    assert round(avg, 1) == 27.3

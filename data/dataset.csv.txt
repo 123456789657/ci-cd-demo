@@ -1,0 +1,4 @@
+name,age
+Ali,24
+Sara,30
+Reza,28
